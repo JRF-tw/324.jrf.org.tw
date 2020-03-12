@@ -1,0 +1,130 @@
+@media screen and (-ms-high-contrast: active){
+  #tear {
+    display: none;
+  }
+}
+body,
+html {}
+
+body {
+    font: 100% / 1.5 微軟正黑體;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.small {
+    font-size: 0.6em;
+}
+
+.gradient-bg {
+    background: linear-gradient(rgba(40, 40, 40, 1), rgba(96, 96, 96, 1));
+}
+
+.parallax {
+    font-size: 200%;
+}
+
+.person {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.logo-w{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(138, 145, 93, .6);
+    padding: 12px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.nobreak {
+    display: inline-block;
+}
+
+.btn-default {
+    border: 2px solid #453726;
+    color: #453726;
+    background: 0 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    text-shadow: none;
+}
+
+.btn-default:focus,
+.btn-default:hover {
+    border: 2px solid #8A915D;
+    background-color: #453726;
+    color: #fff;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 0vh;
+    position: relative;
+    background-color: rgba(31, 61, 85, 1);
+    padding: 50px;
+    color: #cccccc;
+    font-size: 0.9em;
+}
+
+.list-icons {
+    text-indent: -8px;
+    font-size: 0.8em;
+    padding-left: 14px;
+}
+
+.list-icons li i {
+    padding-right: 4px;
+    width: 10px;
+    text-align: center;
+}
+
+.mission {
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+    color: #000;
+}
+
+h4 {
+    color: #fff;
+}
+
+.list {
+    color: #fff;
+    font-size: 0.8em;
+    padding-left: 40px;
+    font-weight: 300;
+}
+
+@media screen and (min-width:1400px) {
+    .visible-xl{
+        display: block!important;
+    }
+    .hidden-xl{
+        display: none!important;
+    }
+}
