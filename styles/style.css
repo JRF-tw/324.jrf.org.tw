@@ -19,11 +19,55 @@ p {
     font-size: 0.8em;
     font-weight: 400;
 }
-
+h1{
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #ff931e;
+}
+.date-title{
+    font-size: 1em;
+    font-weight: 700;
+    color: #ff931e
+}
 .small {
     font-size: 0.6em;
 }
-
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+    color: #ffffff;
+}
+.case-label {
+    padding: .2em .6em .3em;
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #ff931e;
+}
+.lawyer-label {
+    padding: .2em .6em .3em;
+    font-size: 50%;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #ffffff;
+}
 .gradient-bg {
     background: linear-gradient(rgba(40, 40, 40, 1), rgba(96, 96, 96, 1));
 }
