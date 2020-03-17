@@ -7,7 +7,7 @@ body,
 html {}
 
 body {
-    font: 100% / 1.5 微軟正黑體;
+    font: 200% / 1.5 微軟正黑體;
 }
 
 * {
@@ -33,10 +33,31 @@ blockquote {
 .date-title{
     font-size: 1em;
     font-weight: 700;
-    color: #ff931e
+    color: #ff931e;
+    margin-top:1em;
 }
 .small {
     font-size: 0.6em;
+}
+.modal-title{
+    color: #ffffff;
+    margin-left: 5px;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+.modal-header{
+    padding:5px;
+    border-bottom:none;
+}
+.modal-body{
+    padding: 5px;
+}
+.modal-content{
+    background-color: rgba(96, 96, 96, 1);
+
+}
+.close {
+    color: #ffffff;
 }
 .list-inline {
     padding-left: 0;
@@ -72,12 +93,9 @@ blockquote {
     background: linear-gradient(rgba(40, 40, 40, 1), rgba(96, 96, 96, 1));
 }
 
-.parallax {
-    font-size: 200%;
-}
 
 .person {
-    position: absolute;
+    position: fixed;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -123,7 +141,9 @@ blockquote {
     background-color: #453726;
     color: #fff;
 }
-
+.p20{
+    padding-right: 20px;
+}
 .footer {
     width: 100%;
     margin-top: 0vh;
@@ -147,7 +167,7 @@ blockquote {
 }
 
 .mission {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, .7);
     border-radius: 5px;
     padding: 20px 20px 20px 20px;
     color: #000;
