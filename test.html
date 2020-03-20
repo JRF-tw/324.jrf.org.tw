@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript stop Youtube Video</title>
+
+
+  </head>
+  <body>
+    <div>
+      <!-- -->
+      <h3 class="close">헤이즈(Heize) - Jenga</h3>
+
+          <iframe class="youtube-video" src='https://www.youtube.com/embed/uw_HR9jIJww?enablejsapi=1' frameborder='0' allowfullscreen></iframe>
+
+      <!-- -->
+
+      <!-- -->
+      <h3 class="close">쏜애플(THORNAPPLE) - 낯선 열대</h3>
+      <div>
+        <div>
+          <iframe class="youtube-video" src='https://www.youtube.com/embed/037avJv4-cY?enablejsapi=1' frameborder='0' allowfullscreen></iframe>
+        </div>
+      </div>
+      <!-- -->
+
+      <!-- -->
+      <h3 class="close">Fromm(프롬) - Pieces of You and Me</h3>
+      <div>
+        <div>
+          <iframe class="youtube-video" src='https://www.youtube.com/embed/jx6GBqZMB14?enablejsapi=1' frameborder='0' allowfullscreen></iframe>
+        </div>
+      </div>
+      <!-- -->
+    </div>
+
+    
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+  $('.close').click(function() {
+    $('.youtube-video').each(function() {
+      this.contentWindow.postMessage('{"event": "command", "func": "stopVideo", "args": ""}', '*');
+    });
+  });
+</script>
+  </body>
+</html>
