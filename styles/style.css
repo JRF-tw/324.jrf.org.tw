@@ -66,6 +66,14 @@ footer{
 }
 .close {
     color: #ffffff;
+    opacity: 1;
+}
+.close:focus, .close:hover {
+    color: #ff931e;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    text-shadow: 0 1px 0 #ff931e;
 }
 .list-inline {
     padding-left: 0;
